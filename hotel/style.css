@@ -1,0 +1,70 @@
+/* my custom styles */
+body {
+    background-color: #f1f3f8;
+}
+
+/* ----- sidebar ----- */
+.sidebar {
+    --bs-offcanvas-width: 260px;
+    background-color: #1f2a44 !important;
+    color: white !important;
+    width: 240px;
+    flex-shrink: 0;
+    min-height: 100vh;
+}
+.sidebar .brand {
+    margin: 10px 0 25px 0;
+}
+.sidebar .nav-link {
+    color: #c8d0e4;
+    border-radius: 6px;
+    margin-bottom: 4px;
+}
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+    background-color: #34426b;
+    color: white;
+}
+.user-box {
+    border-top: 1px solid #34426b;
+    padding-top: 15px;
+}
+.topbar {
+    background-color: white;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* ----- login / register ----- */
+.public-wrap {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background: linear-gradient(135deg, #1f2a44, #3d5a99);
+}
+.public-card {
+    background-color: white;
+    width: 100%;
+    max-width: 440px;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+/* ----- room cards ----- */
+.room-top {
+    color: white;
+    padding: 15px;
+    border-radius: 6px 6px 0 0;
+}
+.room-Single { background-color: #5b8def; }
+.room-Double { background-color: #1fa67a; }
+.room-Deluxe { background-color: #e08a1e; }
+.room-Suite  { background-color: #8a4fd6; }
+
+/* ----- dashboard numbers ----- */
+.stat-number {
+    font-size: 2rem;
+    font-weight: bold;
+}
